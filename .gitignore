@@ -1,0 +1,99 @@
+# === Personal ===
+sandbox/
+
+# === Python cache / build ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+build/
+dist/
+
+# === Virtual environments ===
+.env/
+.venv/
+env/
+venv/
+*.env
+*.venv
+
+# === Conda environments ===
+*.conda
+*.yaml
+*.yml
+# Don't ignore env files you want to keep
+# !environment.yml  # uncomment if you *want* to track your env
+
+# === Jupyter / notebooks ===
+.ipynb_checkpoints/
+*.ipynb~
+
+# === Logs and runtime ===
+*.log
+*.out
+*.err
+nohup.out
+logs/
+checkpoints/
+tmp/
+temp/
+cache/
+*.pid
+
+# === Model weights and large data ===
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+*.npz
+*.npy
+*.tar
+*.zip
+*.gz
+*.pkl
+*.onnx
+*.safetensors
+models/
+data/
+outputs/
+results/
+
+# === HuggingFace / Transformers caches ===
+~/.cache/
+hf_cache/
+huggingface/
+transformers_cache/
+tokenizer_cache/
+
+# === Slurm and cluster jobs ===
+slurm-*.out
+slurm-*.err
+*.sbatch~
+*.slurm~
+.orcd/
+scratch/
+*.sh~
+# Optional: ignore signal checkpoint files
+signal_checkpoints/
+*.ckpt_signal
+
+# === VSCode ===
+.vscode/
+.history/
+*.code-workspace
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Misc ===
+*.swp
+*.swo
+*.bak
+*.tmp
+

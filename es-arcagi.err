@@ -1,0 +1,638 @@
++ whoami
++ source /home/tiffany8/.bashrc
+++ '[' -f /etc/bashrc ']'
+++ . /etc/bashrc
++++ '[' -z '' ']'
++++ BASHRCSOURCED=Y
++++ '[' '' ']'
++++ shopt -q login_shell
++++ '[' 253699 -gt 199 ']'
+++++ /usr/bin/id -gn
+++++ /usr/bin/id -un
++++ '[' tiffany8 = tiffany8 ']'
++++ umask 002
++++ SHELL=/bin/bash
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/00-modulepath.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/00-modulepath.sh
+++++ '[' -z /etc/scl/modulefiles:/orcd/software/community/001/spack/modulefiles/gcc/12.2.0:/orcd/software/community/001/spack/modulefiles/openmpi/4.1.4-zahpnmk/gcc/12.2.0:/orcd/software/community/001/modulefiles:/orcd/software/core/001/spack/modulefiles/gcc/12.2.0:/etc/modulefiles:/usr/share/modulefiles:/orcd/software/core/001/modulefiles ']'
+++++ :
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/bash_completion.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/bash_completion.sh
+++++ '[' -n '4.4.20(1)-release' -a -n '' -a -z '' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'grep=grep --color=auto'
+++++ alias 'egrep=egrep --color=auto'
+++++ alias 'fgrep=fgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorls.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorls.sh
+++++ '[' '!' -t 0 ']'
+++++ return
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorsysstat.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorsysstat.sh
+++++ export S_COLORS=auto
+++++ S_COLORS=auto
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorxzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorxzgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'xzgrep=xzgrep --color=auto'
+++++ alias 'xzegrep=xzegrep --color=auto'
+++++ alias 'xzfgrep=xzfgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorzgrep.sh
+++++ '[' -f /usr/libexec/grepconf.sh ']'
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'zgrep=zgrep --color=auto'
+++++ alias 'zfgrep=zfgrep --color=auto'
+++++ alias 'zegrep=zegrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/debuginfod.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/debuginfod.sh
+++++ '[' -z 'https://debuginfod.centos.org/ ' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/flatpak.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/flatpak.sh
+++++ command -v flatpak
++++++ unset G_MESSAGES_DEBUG
++++++ echo /home/tiffany8/.local/share/flatpak
++++++ new_dirs=
++++++ GIO_USE_VFS=local
++++++ flatpak --installations
++++++ read -r install_path
++++++ share_path=/home/tiffany8/.local/share/flatpak/exports/share
++++++ case ":$XDG_DATA_DIRS:" in
++++++ new_dirs=/home/tiffany8/.local/share/flatpak/exports/share
++++++ read -r install_path
++++++ share_path=/var/lib/flatpak/exports/share
++++++ case ":$XDG_DATA_DIRS:" in
++++++ new_dirs=/home/tiffany8/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share
++++++ read -r install_path
++++++ echo /home/tiffany8/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share
+++++ new_dirs=/home/tiffany8/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share
+++++ export XDG_DATA_DIRS
+++++ XDG_DATA_DIRS=/home/tiffany8/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/gawk.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/gawk.sh
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/gnome-ssh-askpass.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/gnome-ssh-askpass.sh
+++++ SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+++++ export SSH_ASKPASS
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/lang.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/lang.sh
+++++ '[' -n en_US.UTF-8 ']'
+++++ LANG_backup=en_US.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /etc/locale.conf ']'
++++++ /usr/bin/sed -r -e 's/^[[:blank:]]*([[:upper:]_]+)=([[:print:][:digit:]\._-]+|"[[:print:][:digit:]\._-]+")/export \1=\2/;t;d' /etc/locale.conf
+++++ eval export 'LANG="en_US.UTF-8"'
++++++ export LANG=en_US.UTF-8
++++++ LANG=en_US.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /home/tiffany8/.i18n ']'
+++++ '[' -n en_US.UTF-8 ']'
+++++ LANG=en_US.UTF-8
+++++ unset LANG_backup config
+++++ '[' -n '' ']'
+++++ '[' -n en_US.UTF-8 ']'
+++++ '[' xterm-256color = linux ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/less.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/less.sh
+++++ '[' -z '||/usr/bin/lesspipe.sh %s' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/modules.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/modules.sh
+++++ . /etc/profile.d/00-modulepath.sh
++++++ '[' -z /etc/scl/modulefiles:/orcd/software/community/001/spack/modulefiles/gcc/12.2.0:/orcd/software/community/001/spack/modulefiles/openmpi/4.1.4-zahpnmk/gcc/12.2.0:/orcd/software/community/001/modulefiles:/orcd/software/core/001/spack/modulefiles/gcc/12.2.0:/etc/modulefiles:/usr/share/modulefiles:/orcd/software/core/001/modulefiles ']'
++++++ :
+++++ '[' -z '' ']'
+++++ LMOD_ALLOW_ROOT_USE=yes
+++++ '[' -n '' ']'
+++++ '[' yes '!=' yes ']'
+++++ '[' -z /usr/share/modulefiles ']'
+++++ findExec READLINK_CMD /usr/bin/readlink readlink
+++++ Nm=READLINK_CMD
+++++ confPath=/usr/bin/readlink
+++++ execNm=readlink
+++++ eval READLINK_CMD=/usr/bin/readlink
++++++ READLINK_CMD=/usr/bin/readlink
+++++ '[' '!' -x /usr/bin/readlink ']'
+++++ unset Nm confPath execNm
+++++ findExec PS_CMD /usr/bin/ps ps
+++++ Nm=PS_CMD
+++++ confPath=/usr/bin/ps
+++++ execNm=ps
+++++ eval PS_CMD=/usr/bin/ps
++++++ PS_CMD=/usr/bin/ps
+++++ '[' '!' -x /usr/bin/ps ']'
+++++ unset Nm confPath execNm
+++++ findExec EXPR_CMD /usr/bin/expr expr
+++++ Nm=EXPR_CMD
+++++ confPath=/usr/bin/expr
+++++ execNm=expr
+++++ eval EXPR_CMD=/usr/bin/expr
++++++ EXPR_CMD=/usr/bin/expr
+++++ '[' '!' -x /usr/bin/expr ']'
+++++ unset Nm confPath execNm
+++++ findExec BASENAME_CMD /usr/bin/basename basename
+++++ Nm=BASENAME_CMD
+++++ confPath=/usr/bin/basename
+++++ execNm=basename
+++++ eval BASENAME_CMD=/usr/bin/basename
++++++ BASENAME_CMD=/usr/bin/basename
+++++ '[' '!' -x /usr/bin/basename ']'
+++++ unset Nm confPath execNm
+++++ unset -f findExec
+++++ '[' -f /proc/2849085/exe ']'
++++++ /usr/bin/readlink /proc/2849085/exe
+++++ my_shell=/usr/bin/bash
++++++ /usr/bin/expr /usr/bin/bash : '-*\(.*\)'
+++++ my_shell=/usr/bin/bash
++++++ /usr/bin/basename /usr/bin/bash
+++++ my_shell=bash
+++++ case ${my_shell} in
+++++ '[' -f /usr/share/lmod/lmod/init/bash ']'
+++++ . /usr/share/lmod/lmod/init/bash
++++++ '[' -z '' ']'
++++++ case "$-" in
++++++ __lmod_vx=x
++++++ '[' -n x ']'
++++++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/usr/share/lmod/lmod/init/bash)
+Shell debugging restarted
++++++ unset __lmod_vx
+++++ unset my_shell PS_CMD EXPR_CMD BASENAME_CMD MODULEPATH_INIT LMOD_ALLOW_ROOT_USE READLINK_CMD
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/scl-init.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/scl-init.sh
+++++++ /bin/ps -p 2849085 -ocomm=
++++++ /bin/basename slurm_script
+++++ shell=slurm_script
+++++ '[' slurm_script = bash ']'
+++++ MODULESHOME=/usr/share/Modules
+++++ export MODULESHOME
+++++ '[' /etc/scl/modulefiles:/orcd/software/community/001/spack/modulefiles/gcc/12.2.0:/orcd/software/community/001/spack/modulefiles/openmpi/4.1.4-zahpnmk/gcc/12.2.0:/orcd/software/community/001/modulefiles:/orcd/software/core/001/spack/modulefiles/gcc/12.2.0:/etc/modulefiles:/usr/share/modulefiles:/orcd/software/core/001/modulefiles = '' ']'
+++++ MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/orcd/software/community/001/spack/modulefiles/gcc/12.2.0:/orcd/software/community/001/spack/modulefiles/openmpi/4.1.4-zahpnmk/gcc/12.2.0:/orcd/software/community/001/modulefiles:/orcd/software/core/001/spack/modulefiles/gcc/12.2.0:/etc/modulefiles:/usr/share/modulefiles:/orcd/software/core/001/modulefiles
+++++ export MODULEPATH
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/ssh-x-forwarding.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/ssh-x-forwarding.sh
+++++ '[' -z '10.29.216.64 57119 18.13.54.20 22' ']'
+++++ '[' -z '' ']'
+++++ return
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/vim.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/vim.sh
+++++ '[' -n '4.4.20(1)-release' -o -n '' -o -n '' ']'
++++++ /usr/bin/id -u
+++++ '[' 253699 -le 200 ']'
+++++ alias vi
+++++ alias vi=vim
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/vte.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/vte.sh
+++++ '[' -n '4.4.20(1)-release' -o -n '' ']'
+++++ [[ hxB == *i* ]]
+++++ return 0
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/which2.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/which2.sh
+++++ case "$(basename $(readlink /proc/$$/exe))" in
+++++++ readlink /proc/2849085/exe
++++++ basename /usr/bin/bash
+++++ which_declare='declare -f'
+++++ which_opt=-f
+++++ export which_declare
+++++ export -f which
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/z01_StdEnv.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/z01_StdEnv.sh
+++++ '[' -z 1 ']'
+++++ module refresh
+++++ '[' -z '' ']'
+++++ case "$-" in
+++++ __lmod_sh_dbg=x
+++++ '[' -n x ']'
+++++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
+++++ unset __lmod_sh_dbg
+++++ return 0
++++ unset i
++++ unset -f pathmunge
+++ cd /orcd/data/tpoggio/001/tiffany8/es-urop
+++ export WANDB_API_KEY=5c9e4ebff399b7a92e8ca92d7d62bd917043dcb4
+++ WANDB_API_KEY=5c9e4ebff399b7a92e8ca92d7d62bd917043dcb4
++++ /home/tiffany8/miniconda3/bin/conda shell.bash hook
+++ __conda_setup='export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+__conda_exe() (
+    if [ -n "${_CE_M:+x}" ] && [ -n "${_CE_CONDA:+x}" ]; then
+        # only use _CE_M/_CE_CONDA when defined to avoid issues when run with `set -u`
+        "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+    else
+        "$CONDA_EXE" "$@"
+    fi
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    # FUTURE: conda 25.9, remove this function
+    echo "'\''__conda_reactivate'\'' is deprecated and will be removed in 25.9. Use '\''__conda_activate reactivate'\'' instead." 1>&2
+    __conda_activate reactivate
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_activate reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate '\''base'\'''
+++ '[' 0 -eq 0 ']'
+++ eval 'export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+__conda_exe() (
+    if [ -n "${_CE_M:+x}" ] && [ -n "${_CE_CONDA:+x}" ]; then
+        # only use _CE_M/_CE_CONDA when defined to avoid issues when run with `set -u`
+        "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+    else
+        "$CONDA_EXE" "$@"
+    fi
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    # FUTURE: conda 25.9, remove this function
+    echo "'\''__conda_reactivate'\'' is deprecated and will be removed in 25.9. Use '\''__conda_activate reactivate'\'' instead." 1>&2
+    __conda_activate reactivate
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_activate reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate '\''base'\'''
++++ export CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
++++ CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
++++ export _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
++++ _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
++++ export _CONDA_ROOT=/home/tiffany8/miniconda3
++++ _CONDA_ROOT=/home/tiffany8/miniconda3
++++ '[' -z x ']'
++++ conda activate base
++++ local cmd=activate
++++ case "$cmd" in
++++ __conda_activate activate base
++++ '[' -n '' ']'
++++ local ask_conda
+++++ PS1=
+++++ __conda_exe shell.posix activate base
+++++ '[' -n '' ']'
+++++ /home/tiffany8/miniconda3/bin/conda shell.posix activate base
++++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/tiffany8/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/home/tiffany8/miniconda3/envs/myenv'\''
+export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\'''
++++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/tiffany8/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/home/tiffany8/miniconda3/envs/myenv'\''
+export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\'''
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ PS1='(base) '
+++++ export PATH=/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ PATH=/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ export CONDA_PREFIX=/home/tiffany8/miniconda3
+++++ CONDA_PREFIX=/home/tiffany8/miniconda3
+++++ export CONDA_SHLVL=3
+++++ CONDA_SHLVL=3
+++++ export CONDA_DEFAULT_ENV=base
+++++ CONDA_DEFAULT_ENV=base
+++++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++++ CONDA_PROMPT_MODIFIER='(base) '
+++++ export CONDA_PREFIX_2=/home/tiffany8/miniconda3/envs/myenv
+++++ CONDA_PREFIX_2=/home/tiffany8/miniconda3/envs/myenv
+++++ export CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++++ CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++++ export _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++++ _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++++ export CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++++ CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++++ export _CONDA_ROOT=/home/tiffany8/miniconda3
+++++ _CONDA_ROOT=/home/tiffany8/miniconda3
++++ __conda_hashr
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ hash -r
+++ unset __conda_setup
++ source /home/tiffany8/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/tiffany8/miniconda3
+++ _CONDA_ROOT=/home/tiffany8/miniconda3
+++ '[' -z x ']'
++ conda activate myenv
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate myenv
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate myenv
+++ '[' -n '' ']'
+++ /home/tiffany8/miniconda3/bin/conda shell.posix activate myenv
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(myenv) '\''
+export PATH='\''/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/envs/myenv/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/tiffany8/miniconda3/envs/myenv'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''myenv'\''
+export CONDA_PROMPT_MODIFIER='\''(myenv) '\''
+export CONDA_PREFIX_3='\''/home/tiffany8/miniconda3'\''
+export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\'''
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(myenv) '\''
+export PATH='\''/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/envs/myenv/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/tiffany8/miniconda3/envs/myenv'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''myenv'\''
+export CONDA_PROMPT_MODIFIER='\''(myenv) '\''
+export CONDA_PREFIX_3='\''/home/tiffany8/miniconda3'\''
+export CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/tiffany8/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/tiffany8/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/tiffany8/miniconda3'\'''
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(myenv) '
+++ export PATH=/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/envs/myenv/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ PATH=/orcd/home/002/tiffany8/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/home/tiffany8/miniconda3/envs/myenv/bin:/home/tiffany8/miniconda3/condabin:/orcd/software/core/001/spack/pkg/gcc/12.2.0/yt6vabm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export CONDA_PREFIX=/home/tiffany8/miniconda3/envs/myenv
+++ CONDA_PREFIX=/home/tiffany8/miniconda3/envs/myenv
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=myenv
+++ CONDA_DEFAULT_ENV=myenv
+++ export 'CONDA_PROMPT_MODIFIER=(myenv) '
+++ CONDA_PROMPT_MODIFIER='(myenv) '
+++ export CONDA_PREFIX_3=/home/tiffany8/miniconda3
+++ CONDA_PREFIX_3=/home/tiffany8/miniconda3
+++ export CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ _CONDA_EXE=/home/tiffany8/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/tiffany8/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/tiffany8/miniconda3
+++ _CONDA_ROOT=/home/tiffany8/miniconda3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ echo 'check gpu status before running job'
++ nvidia-smi
++ cd /orcd/data/tpoggio/001/tiffany8/es-urop
++ export PROJECT_ROOT=/orcd/data/tpoggio/001/tiffany8/es-urop
++ PROJECT_ROOT=/orcd/data/tpoggio/001/tiffany8/es-urop
++ export MODEL_NAME=/orcd/data/tpoggio/001/om/tiffany8/grpo-urop/TinyZero/model/Qwen2.5-3B-Instruct/
++ MODEL_NAME=/orcd/data/tpoggio/001/om/tiffany8/grpo-urop/TinyZero/model/Qwen2.5-3B-Instruct/
++ export SCRATCH_DIR=/home/tiffany8/orcd/scratch
++ SCRATCH_DIR=/home/tiffany8/orcd/scratch
++ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
++ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
++ export NCCL_DEBUG=INFO
++ NCCL_DEBUG=INFO
++ export NCCL_ASYNC_ERROR_HANDLING=1
++ NCCL_ASYNC_ERROR_HANDLING=1
++ accelerate launch --num_processes 4 /orcd/data/tpoggio/001/tiffany8/es-urop/es_fine-tuning_arcagi.py --model_name /orcd/data/tpoggio/001/om/tiffany8/grpo-urop/TinyZero/model/Qwen2.5-3B-Instruct/ --project_path /orcd/data/tpoggio/001/tiffany8/es-urop --hf_cache_dir /home/tiffany8/orcd/scratch --mixed_precision bf16 --verbose --log_sample_every 1
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[W1017 11:01:10.576565497 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[W1017 11:01:12.459943197 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[W1017 11:01:12.470307068 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[W1017 11:01:12.479278348 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.71it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.26it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.15it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.22it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.38it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.84it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.71it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.57it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.86it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.76it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.59it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  2.10it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  2.00it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.63it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.17it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.07it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.37it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.85it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.76it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.98it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.91it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.76it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.69it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.63it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.14it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.04it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.37it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.37it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.84it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.75it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.88it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.83it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.63it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.57it/s]/home/tiffany8/miniconda3/envs/myenv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank3]:[W1017 11:01:18.816506418 ProcessGroupNCCL.cpp:5023] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can specify device_id in init_process_group() to force use of a particular device.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.64it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.11it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.41it/s]/home/tiffany8/miniconda3/envs/myenv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank0]:[W1017 11:01:19.584793517 ProcessGroupNCCL.cpp:5023] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can specify device_id in init_process_group() to force use of a particular device.
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]
+/home/tiffany8/miniconda3/envs/myenv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank2]:[W1017 11:01:20.853591980 ProcessGroupNCCL.cpp:5023] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can specify device_id in init_process_group() to force use of a particular device.
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.03s/it]
+/home/tiffany8/miniconda3/envs/myenv/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4807: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank1]:[W1017 11:01:21.149886089 ProcessGroupNCCL.cpp:5023] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can specify device_id in init_process_group() to force use of a particular device.
