@@ -1,5 +1,8 @@
 # === Personal ===
 sandbox/
+*.out
+*.err
+*.sbatch
 
 # === Python cache / build ===
 __pycache__/
